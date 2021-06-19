@@ -4,7 +4,13 @@
 <pre><code> $ cd yolov5</code></pre>
 <pre><code> $ pip install -r requirements.txt</code></pre>
 ## Links
+
+* yolov5 file
+
 You may be using [https://drive.google.com/drive/folders/1eFujH_Cv-ygDIAZUzALhcxiSMpWIhY-e?usp=sharing](https://drive.google.com/drive/folders/1eFujH_Cv-ygDIAZUzALhcxiSMpWIhY-e?usp=sharing).
+* Colab
+
+You may be using [https://drive.google.com/drive/folders/1Q_4tzM9pKTcsa6opo2VUAhslmhYQA4WV?usp=sharing](https://drive.google.com/drive/folders/1Q_4tzM9pKTcsa6opo2VUAhslmhYQA4WV?usp=sharing).
 ## Environment Setting
 * yolov5/data資料夾中新增TWStreet.yaml
 
