@@ -3,10 +3,12 @@
 <pre><code> $ git clone https://github.com/ultralytics/yolov5</code></pre>
 <pre><code> $ cd yolov5</code></pre>
 <pre><code> $ pip install -r requirements.txt</code></pre>
+## Links
+You may be using [https://drive.google.com/drive/folders/1eFujH_Cv-ygDIAZUzALhcxiSMpWIhY-e?usp=sharing](https://drive.google.com/drive/folders/1eFujH_Cv-ygDIAZUzALhcxiSMpWIhY-e?usp=sharing).
 ## Environment Setting
-* yolov5\data資料夾中新增TWStreet.yaml
+* yolov5/data資料夾中新增TWStreet.yaml
 
-* 下載附檔中yolov5\runs\train\exp8\weights\best.pt把它放在yolov5資料夾中指定位置
+* Goole Driver下載yolov5\runs\train\exp8\weights\best.pt把它放在yolov5資料夾中指定位置
 
 ## Training
 
@@ -49,50 +51,7 @@ for i in range(1,1001):
         f_txt.write("%d ,%d ,%d ,%d ,%d ,%d ,%d ,%d ,%d ,%f\n" %  (count,round(x_min),round(y_min),round(x_max),round(y_min),round(x_max),round(y_max),round(x_min),round(y_max),conf))
 f_txt.close()
 </code></pre>
-### Unordered
-
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-
-### Ordered
-
-1. Item 1
-1. Item 2
-1. Item 3
-  1. Item 3a
-  1. Item 3b
 
 ## Images
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
->> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Tables
-
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+![This is a alt text.](img_3010.jpg "This is a sample image.")
