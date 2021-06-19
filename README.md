@@ -3,6 +3,10 @@
 <pre><code> $ git clone https://github.com/ultralytics/yolov5</code></pre>
 <pre><code> $ cd yolov5</code></pre>
 <pre><code> $ pip install -r requirements.txt</code></pre>
+## Environment Setting
+* yolov5\data資料夾中新增TWStreet.yaml
+
+* 下載附檔中yolov5\runs\train\exp8\weights\best.pt把它放在yolov5資料夾中指定位置
 
 ## Training
 
@@ -10,7 +14,7 @@
 <pre><code>!python train.py --img 640 --batch 8 --epochs 300 --data data/TWStreet.yaml --weights yolov5x.pt
 </code></pre>
 **Colab中斷 想持續訓練**
-<pre><code>!python train.py --img 640 --batch 8 --epochs 300 --data data/TWStreet.yaml --weights /content/drive/MyDrive/yolov5/runs/train/exp/weights/last.pt
+<pre><code>!python train.py --img 640 --batch 8 --epochs 300 --data data/TWStreet.yaml --weights /content/drive/MyDrive/yolov5/runs/train/exp8/weights/last.pt
 </code></pre>
 ## Detecting
 <pre><code>import torch
